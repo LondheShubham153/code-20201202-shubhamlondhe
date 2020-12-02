@@ -80,7 +80,7 @@ async def post_handler(request):
 def init_bmi_app(argv=None):
     app = web.Application()     #initializing an instance of web app
     app.add_routes(routes)      #adding url routes to app instance
-    web.run_app(app,os.environ['PORT'])  #running web app
+    web.run_app(app,port=os.environ['PORT'])  #running web app
     return app
 
 app = init_bmi_app()
