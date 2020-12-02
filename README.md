@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://ibb.co/sC0TMQV">
-    <img src="images/logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">CodeChallenge</h3>
@@ -17,7 +17,7 @@
     An awesome challenge which allowed me to understand pandas and aiohttp!
     <br />
     <br />
-    <a href="https://fynd-my-movie.herokuapp.com/movies">View Demo</a>
+    <a href="https://pybmi.herokuapp.com/movies">View Demo</a>
     ·
     <a href="https://github.com/LondheShubham153/">Report Bug</a>
     ·
@@ -46,8 +46,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![product-screenshot](images/search.png)
-![testing-screenshot](images/test.png)
+![product-screenshot](images/allBmi.png)
+![testing-screenshot](images/singleBmi.png)
 
 
 There are many great functional APIs available on GitHub, however, I didn't copy from them, I created CodeChallenge which made me understand a few concepts of Python. 
@@ -82,8 +82,7 @@ python --version
 
 ### Installation
 
-1. Get a free API Key at [https://www.linkedin.com/in/shubhamlondhe1996/](https://www.linkedin.com/in/shubhamlondhe1996/)
-2. Clone the repo
+1. Clone the repo
 ```sh
 git clone https://github.com/LondheShubham153/code-20201202-shubhamlondhe.git
 ```
