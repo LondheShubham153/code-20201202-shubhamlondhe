@@ -25,7 +25,7 @@ async def get_handler(request):
     This end-point allows to get the BMI data from json file.
     """
     results = []
-
+    overweight_counter = 0
     with open('data.json') as f:        #reading the sample json data
         data_samples = json.load(f)
 
@@ -35,7 +35,9 @@ async def get_handler(request):
         gender = sample["Gender"]
         calculated_bmi = bmi.calculate_bmi(mass,height) #using bmi calculator using formula 1
         calculated_range = bmi.calculate_range(calculated_bmi) #using range calculator using table 1
-        
+        if calculated_range["Category"] == "Overweight":
+            overweight_counter+=1
+
         recordData = {
             "Gender":gender,
             "WeightKg":mass,
@@ -46,7 +48,8 @@ async def get_handler(request):
         results.append(data)
     response_obj = {
         'message': 'success',
-        'results': results
+        'results': results,
+        'total_overweight':overweight_counter
     }
     return web.json_response(response_obj, status=200)
 
