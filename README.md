@@ -17,7 +17,7 @@
     An awesome challenge which allowed me to understand pandas and aiohttp!
     <br />
     <br />
-    <a href="https://pybmi.herokuapp.com/movies">View Demo</a>
+    <a href="https://pybmi.herokuapp.com/bmi">View Demo</a>
     ·
     <a href="https://github.com/LondheShubham153/">Report Bug</a>
     ·
