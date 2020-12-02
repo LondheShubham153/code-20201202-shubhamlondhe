@@ -82,8 +82,7 @@ python --version
 
 ### Installation
 
-1. Get a free API Key at [https://www.linkedin.com/in/shubhamlondhe1996/](https://www.linkedin.com/in/shubhamlondhe1996/)
-2. Clone the repo
+1. Clone the repo
 ```sh
 git clone https://github.com/LondheShubham153/code-20201202-shubhamlondhe.git
 ```
